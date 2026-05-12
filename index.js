@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 app.get("/robot", (req, res) => {
     res.json({
         battery: 82,
-        speed: 1.5,
+        speed: 1.4,
         status: "Juan"
     });
 });
