@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 /*para conectarse al robot, por ahora fake*/
 app.get("/robot", (req, res) => {
     res.json({
-        battery: 83,
+        battery: 87,
         speed: 1.4,
         status: "Juan"
     });
