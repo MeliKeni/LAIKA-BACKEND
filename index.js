@@ -28,7 +28,7 @@ res.send(`Moviendo robot hacia ${direction}`);
 
 });
 
-app.listen(3000, () => {
+app.listen(3000, "0.0.0.0", () => {
     console.log("Servidor corriendo");
 });
 
